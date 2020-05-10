@@ -1,10 +1,16 @@
 body {
   margin: 0;
+  text-align: center;
 }
 
 h1 {
   margin-top: 0;
-  margin-bottom: 0;
+  /* 
+  // top: 0px; right: auto; 
+  // button: 0px; left: auto;
+  
+  margin: 0 auto; 
+  */
 }
 
 /*          ||
@@ -12,14 +18,8 @@ h1 {
             ||  padding
             ||
  */
-div {
-  background-color: #e4f9f5;
-}
 
-.topContainer {
-}
-
-.middleContainer {
+/* .middleContainer {
   background-color: red;
   height: 200px;
   width: 200px;
@@ -29,8 +29,26 @@ div {
   background-color: blue;
   height: 200px;
   width: 200px;
-}
+} */
 
 .pro {
   text-decoration: underline;
+}
+
+.topContainer {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.topCloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottomCloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
 }

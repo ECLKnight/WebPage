@@ -1,9 +1,11 @@
 body {
   margin: 0;
+  font-family: "Merriweather", serif;
   text-align: center;
 }
 
 h1 {
+  font-family: "Sacramento", cursive;
   margin-top: 0;
   /* 
   // top: 0px; right: auto; 
@@ -11,6 +13,14 @@ h1 {
   
   margin: 0 auto; 
   */
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
 }
 
 /*          ||

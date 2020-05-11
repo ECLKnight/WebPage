@@ -1,12 +1,16 @@
 body {
   margin: 0;
-  font-family: "Merriweather", serif;
   text-align: center;
+  font-family: "Merriweather", serif;
 }
 
 h1 {
+  color: #66bfbf;
   font-family: "Sacramento", cursive;
-  margin-top: 0;
+
+  /* 100%px == 16px == 1em*/
+  font-size: 5.625rem;
+  margin: 3.125rem auto -1rem auto;
   /* 
   // top: 0px; right: auto; 
   // button: 0px; left: auto;
@@ -16,30 +20,16 @@ h1 {
 }
 
 h2 {
+  color: #66bfbf;
   font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
 }
 
 h3 {
+  color: #11999e;
   font-family: "Montserrat", sans-serif;
 }
-
-/*          ||
-    margin  ||
-            ||  padding
-            ||
- */
-
-/* .middleContainer {
-  background-color: red;
-  height: 200px;
-  width: 200px;
-}
-
-.lastContainer {
-  background-color: blue;
-  height: 200px;
-  width: 200px;
-} */
 
 .pro {
   text-decoration: underline;
@@ -62,3 +52,39 @@ h3 {
   left: 300px;
   bottom: 300px;
 }
+
+.skillRow {
+  line-height: 2;
+  margin: 6.25rem auto;
+  text-align: left;
+  width: 50%;
+}
+
+.codeImg {
+  width: 25%;
+}
+
+.fire {
+  width: 25%;
+}
+
+.bottomContainer {
+  background-color: #11999e;
+}
+/*          ||
+    margin  ||
+            ||  padding
+            ||
+ */
+
+/* .middleContainer {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+}
+
+.lastContainer {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+} */
